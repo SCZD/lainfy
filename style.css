@@ -186,7 +186,7 @@ footer{
 }
 @media(max-width: 830px){
 	#body-a{
-		padding-bottom: 500px;
+		padding-bottom: 830px;
 	}
 	#nav-a{
 		visibility: hidden;

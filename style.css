@@ -186,7 +186,7 @@ footer{
 }
 @media(max-width: 830px){
 	#body-a{
-		padding-bottom: 830px;
+		padding-bottom: 1225px;
 	}
 	#nav-a{
 		visibility: hidden;
@@ -198,7 +198,7 @@ footer{
 	.info div{
 		box-sizing:border-box;
 		width: 100%;
-		padding-left: 55px;
+		padding-left: 25px;
 		margin-top: 25px;
 	}
 	.info-c img{

@@ -23,7 +23,7 @@ header{
 	margin-left: 55px; 
 	font-weight: bold;
 	letter-spacing: 10px;
-	color:  #6351ce;
+	color: rgb(133,101,196);
 }
 #nav-a{
 	padding-left: 45px;
@@ -76,10 +76,10 @@ header{
 	background: white;
 }
 .signup a{
-	color: #6351ce;
+	color: rgb(153, 111, 214);
 	text-decoration: none;
 	padding: 7px 30px;
-	border:1px solid  #6351ce;
+	border:1px solid rgb(133,101,196);
 	border-radius: 5px;
 }
 footer{
@@ -91,7 +91,7 @@ footer{
 	bottom: 0;
 	left: 0;
 	display: flex;
-	background: #6351ce;
+	background:rgb(133,101,196);
 	flex-direction: column;
 }
 .socialn{

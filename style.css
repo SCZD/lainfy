@@ -1,0 +1,219 @@
+#body-a{
+	position: relative;
+	min-height: 100vh;
+	padding-bottom: 350px;
+	background: #ffffff;
+	margin: 0;
+	box-sizing: border-box; 
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	position: relative;
+	width: 100%;
+	/*height: 50px;*/
+	/*background: #e9e9e9;*/
+	display: flex;
+	justify-content: flex-start;
+	box-shadow:0 2px 16px 0 rgba(0,0,0,0.10);
+	overflow: hidden;
+}
+.logo{
+	margin-top:16.5px;
+	margin-left: 55px; 
+	font-weight: bold;
+	letter-spacing: 10px;
+	color:  #6351ce;
+}
+#nav-a{
+	padding-left: 45px;
+	padding-top: 0px; 
+}
+#ul-a{
+	display: flex;
+	list-style: none;
+ 	padding: 0;
+ 	margin: 0;
+}
+.ul-item{
+	padding: 12.5px 10px 12.5px 10px;
+	border: 4px solid transparent;
+}
+.ul-item a{
+	text-decoration: none;
+	color: black;
+	letter-spacing: 1px;
+	font-size: 15px;
+	padding: 12.5px 0;
+	color:#737373;
+}
+#ca:hover{
+	border-bottom: 4px solid #f7adce;
+}
+#cb:hover{
+	border-bottom: 4px solid #7fd3f7;
+}
+#cc:hover{
+	border-bottom: 4px solid #84f2b3;
+}
+#cd:hover{
+	border-bottom: 4px solid #c49bdf;
+}
+#ce:hover{
+	border-bottom: 4px solid #ffde17;
+}
+#cf:hover{
+	border-bottom: 4px solid #ff7514;
+}
+.ul-item:hover a{
+	color: black;
+}
+.signup{
+	position: absolute;
+	right: 55px;
+	margin-top: 6.5px;
+	padding:10px 0px 10px 0px;
+	background: white;
+}
+.signup a{
+	color: #6351ce;
+	text-decoration: none;
+	padding: 7px 30px;
+	border:1px solid  #6351ce;
+	border-radius: 5px;
+}
+footer{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	color: white;
+	position:absolute;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	background: #6351ce;
+	flex-direction: column;
+}
+.socialn{
+	position: relative;
+	width: 100%;
+	padding: 35px 0;
+}
+.socialn span, .socialn img, .info-d{
+	position: absolute;
+	transform: translate(0%,-50%);
+}
+/*Las imagenes son de 32x32*/
+.socialn img{
+	width: 25px;
+	height: 25px;
+}
+.socialn span{
+	left: 55px;
+}
+#share{
+	right: 55px;
+}
+#yt{
+ 	right: 100px;
+}
+#github{
+	right: 145px;
+}
+.info{
+	position: relative;
+	width: 100%;
+	background: #212121;
+	display: flex;
+	padding: 75px 0;
+	justify-content: center;
+}
+.info div{
+	width: 212px;
+}
+.info p{
+	/*width: 100%;*/
+}
+.info p ,.info-b a,#paypal, #mail,#phone,.info-e a{
+	color: rgba(255,255,255,.55);
+	text-decoration: none; /*¨No afecta el p pero si al a por tanto lo puedo poner aqui */
+}
+#footess{
+	font-size: 18px;
+	font-family: arial;
+	letter-spacing: 3px;
+}
+.info-b span,.info-e span,.info-c span{
+	margin-bottom: 14px;
+}
+.info-b a,.info-e a{
+	margin-bottom: 7px;
+}
+.info-b a:hover,.info-e a:hover{
+	color: #AB4FFF;
+}
+.info-b,.info-c,.info-a,.info-e{
+	margin: 0  0px 0 0px;
+	display: flex;
+	flex-direction: column; 
+}
+.info-d{
+	right: 55px;
+	top: 50%;
+	width: 125px;
+	height: 125px;
+	visibility: hidden;
+	border: 2px solid #767676;
+}
+#paypal img,#mail img,#phone img{
+	vertical-align: middle;
+	margin-right: 15px;
+}
+.copyright{
+	width: 100%;
+	background: black;
+	padding: 10px 0;
+	display: flex;
+	justify-content: center;
+}
+
+/*QR Code*/
+@media (min-width: 1250px){
+	.info-d{
+		visibility: visible;
+	}
+
+}
+@media(max-width: 830px){
+	#body-a{
+		padding-bottom: 500px;
+	}
+	#nav-a{
+		visibility: hidden;
+	}
+	.info{
+		flex-direction: column;
+		align-items: center;
+	}
+	.info div{
+		box-sizing:border-box;
+		width: 100%;
+		padding-left: 55px;
+		margin-top: 25px;
+	}
+	.info-c img{
+		display: none;
+	}
+	.info-b a,.info-e a{
+	margin-bottom: 1px;
+	}
+	.info-b span,.info-e span,.info-c span{
+	margin-bottom: 10px;
+	}
+	#paypal, #mail,#phone{
+	margin-bottom: 	1px;
+	}
+	.info-a p{
+	max-width: 	450px;
+	}
+}

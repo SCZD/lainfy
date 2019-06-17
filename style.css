@@ -2,7 +2,7 @@
 	position: relative;
 	min-height: 100vh;
 	padding-bottom: 432px;
-	background: #ffffff;
+	background: white;
 	margin: 0;
 	box-sizing: border-box; /*¨Hemos obligado al body al ser 100% tanto en w and h, por tanto cualquier elemento
 	dentro de el y el mismo al aplicarle un padding si no tiene border-box saltra porque ya el tamaño minimo es el visto y 
@@ -166,7 +166,7 @@ header{
 .author{
 	width: 200px;
 	height: 400px;
-	margin-left: 35px;
+	margin-left: 55px;
 }
 .author-a{
 	position: relative;
@@ -174,26 +174,99 @@ header{
 	flex-direction: column;
 	background:  #F9F9F9;
 	text-align: center;
-	padding: 12.5px;
-	box-shadow:0 0px 8px 0 rgba(0,0,0,0.10);
+	padding: 10px 10px 50px 10px;
 	border-radius: 8px;
+	box-shadow:0 0 16px 0px rgba(0,0,0,0.10);
 }
 .meimg img{
 	width: 175px;
 	height: 175px;
 	border: 2px solid #e1e1e1;
 	border-radius: 50%;
+	box-shadow:0 0 16px 1px rgba(0,0,0,0.10);
 }
 .author-a span{
 	margin-top: 5px;
 	color: rgb(133,101,196);
 	font-weight: bold;
 }
+.author-a p{
+	text-align: justify;
+}
+.firma{
+	width: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	top: 92%;
 
+}
+/*---------------------------------------------------*/
+.about{
+	width: 100%;
+	padding: 75px 25px; 
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+}
+.about-a{
+	width: 825px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 75px;
+}
+.about-a-a{
+	font-size: 26px;
+	align-self: center;
+}
+.about-p{
+	width: 100%;
+	/*display: flex;*/
+	margin-top: 25px;
+	line-height: 1.6;
+}
+.about-p p{
+	/*width: 50%;*/
+	padding: 5px;
+}
+.vip{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.vip-a,.vip-b{
+	width: 300px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.vip-a img,.vip-b img{
+	width: 50%;
+	height: 50%;
+	margin-top: 30px;
+	border-radius: 50%;
+	box-shadow:0 0px 16px 2px rgba(0,0,0,0.10);
+}
+.vip-a{
+	margin-right: 25px;
+}
+.vip-b{
+	margin-left: 25px;
+}
+.vip-a-d,.vip-b-d{
+	margin-top: 12.5px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.vip-a-d-a,.vip-b-d-a{
+	font-size: 11px;
+	margin-top: 2px;
+}
+.vip-a p,.vip-b p{
+	text-align: center;
 
-
-
-
+}
 /*---------------------------------------------------*/
 footer{
 	margin: 0;
@@ -352,6 +425,45 @@ code{
 	color: white;
 }
 /*---------------------------------------------------*/
+.license{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 75px 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.license-a{
+	display: flex;
+	width: 825px;
+	line-height: 1.6;
+	flex-direction: column;
+	margin-bottom: 75px;
+}
+.license-a span{
+	align-self: center;
+	margin-bottom: 14px;
+	font-family: 'Raleway', sans-serif;
+}
+.license-a p{
+	font-family: 'Raleway', sans-serif;
+	padding: 5px;
+}
+#license-a-a{
+	margin-top: 75px;
+	align-self: center;
+}
+.license-a-n{
+	text-indent: 2em;
+	margin-top: 50px;
+}
+.license-a-s{
+	text-indent: 2em;
+}
+.license-a-in{
+	margin-left: 1em;
+}
+/*---------------------------------------------------*/
 /*QR Code*/
 @media (min-width: 1333px){
 	.info-d{
@@ -392,6 +504,10 @@ code{
 	max-width: 	450px;
 	}
 }
+/*.logo:hover{
+	cursor: url("icon_sn/cursor.png") 90 90,auto;
+	color: transparent;
+}*/
 /*---------------------------------------------------*/
 /*                       		,----,              
   .--.--.     ,----..         .'   .`|    ,---,     

@@ -127,7 +127,7 @@ header{
 	overflow: hidden;
 	box-shadow:0 0px 4px 0 rgba(0,0,0,0.10);
 	padding-bottom: 20px;
-	transition: .15s ease-out ;
+	transition: all .15s ease-in-out
 }
 .notice:hover{
 	margin-top: -4px;

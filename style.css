@@ -69,7 +69,7 @@ header{
 	border-bottom: 4px solid #7fd3f7;
 }
 #cc:hover{
-	border-bottom: 4px solid  #f7adce;
+	border-bottom: 4px solid #f7adce;
 }
 #cd:hover{
 	border-bottom: 4px solid #84f2b3;
@@ -462,6 +462,75 @@ code{
 }
 .license-a-in{
 	margin-left: 1em;
+}
+/*---------------------------------------------------*/
+.sisters{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 75px 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.sisters-a{
+	display: flex;
+	width: 825px;
+	line-height: 1.6;
+	flex-direction: column;
+	margin-bottom: 75px;
+}
+.sisters-l{
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 25px;
+	margin-bottom: 35px;
+}
+.sisters-l span{
+	padding: 0 25px;
+	background: white;
+	z-index: 1;
+}
+.linea{
+	border-top: 2px solid rgb(133,101,196);
+	width: 100%;
+	position: absolute;
+	top: 50%;
+}
+.webroll{
+	width: 100%;
+	padding: 12.5px 5px;
+	box-sizing: border-box;
+}
+.webroll a{
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	font-size: 17px;
+	transition: all .15s ease-in-out;
+	display: flex;
+    align-items: center;
+    padding: 25px 0;
+    box-sizing: border-box;
+    width: 175px;/*Evitar el 100% de link clickeable*/
+}
+.webroll a:hover{
+	/*color: #c49bdf;*/
+	text-decoration: underline;
+}
+#fsv::after{
+    margin-left: 10px;
+    content: '';
+    background: url(icon_sn/tick.png) no-repeat center;
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+}
+.webroll p{
+	margin-top: -14px;
+	margin-bottom: -14px;
 }
 /*---------------------------------------------------*/
 /*QR Code*/

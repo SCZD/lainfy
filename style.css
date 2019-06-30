@@ -351,6 +351,10 @@ header{
 	font-size: 11px;
     margin-top: 2px;
 }
+.about-who-03{
+	font-size: 13px;
+    margin-top: 2px;
+}
 .about-who-0 p{
 	text-align: center;
 	width: 325px;
@@ -372,6 +376,28 @@ header{
 
 
 
+.container-license{
+	width: 100%;
+	padding: 75px 25px;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+}
+.license{
+	width: 825px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.license h2{
+	font-weight: normal;
+    font-size: 26px;
+    text-align: center;
+}
+.license p{
+	font-size: 14px;
+    line-height: 1.5;
+}
 
 footer{
 	position: absolute;

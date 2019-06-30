@@ -1,2 +1,1 @@
 # / / Lainfy
-NO TIENE VERSION MOVIL AUN

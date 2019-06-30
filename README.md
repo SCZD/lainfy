@@ -1,3 +1,2 @@
 # / / Lainfy
--favicon
--info
+NO TIENE VERSION MOVIL AUN

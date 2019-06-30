@@ -362,18 +362,6 @@ header{
 
 
 
-.container-license{
-	width: 100%;
-	padding: 75px 25px;
-	display: flex;
-	box-sizing: border-box;
-}
-.container-license pre{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	line-height: 1.15;
-}
-
 
 
 .container-license{

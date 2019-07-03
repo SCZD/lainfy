@@ -593,12 +593,12 @@ footer{
 		flex-direction: column;
 	}
 	.media-about-a p{
-		text-align: center;
+		text-align: justify;
 		margin-top: 25px;
 	}
 	.about-who-03{
 		width: 100%;
-		text-align: center;q
+		text-align: center;
 	}
 }
 

@@ -491,14 +491,14 @@ footer{
 	display: flex;
 	justify-content: space-between;
 }
-.footer ul{
+.footer ul,.footer-nav ul{
 	display: flex;
 	list-style: none;
 	padding: 0;
 	margin: 0;
 	align-items: center;
 }
-.footer ul li a{
+.footer ul li a,.footer-nav ul li a{
 	padding: 0 12px;
 	text-decoration: none;
 	color: rgb(133,101,196);
@@ -510,9 +510,17 @@ footer{
 	border-top: 1px solid #E6E6E6;
 	width: 52%;
 }
-.footer-ul-1{
-	justify-content: flex-end;
+.footer-nav{
+	display: none;
+	padding: 18px 0;
+	width: 100%;
 }
+.footer-nav ul{
+	width: 50%;
+}
+
+
+
 
 
 @media(max-width: 900px){
@@ -592,6 +600,16 @@ footer{
 	.about-who-03{
 		width: 100%;
 		text-align: center;
+	}
+	.footer{
+		display: none;
+	}
+	.footer-nav{
+		display: flex;
+	}
+	.footer-nav ul{
+		display: flex;
+		justify-content: center;
 	}
 }
 

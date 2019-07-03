@@ -588,7 +588,19 @@ footer{
 		padding-left: 15px;
 	}
 }
-
+@media(max-width: 500px){
+	.about-who-0{
+		flex-direction: column;
+	}
+	.media-about-a p{
+		text-align: center;
+		margin-top: 25px;
+	}
+	.about-who-03{
+		width: 100%;
+		text-align: center;q
+	}
+}
 
 
 

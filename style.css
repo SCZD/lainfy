@@ -638,7 +638,7 @@ footer{
 		width: 100%;
 		text-align: center;
 	}
-	.footer{
+	.footer,.footer-line{
 		display: none;
 	}
 	.footer-nav{

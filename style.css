@@ -510,15 +510,32 @@ footer{
 	border-top: 1px solid #E6E6E6;
 	width: 52%;
 }
+
+
+
 .footer-nav{
+	position: relative;
 	display: none;
 	padding: 18px 0;
 	width: 100%;
 }
 .footer-nav ul{
-	width: 50%;
+	width: calc(50% - 12px);
+	display: flex;
+	justify-content: center;
 }
-
+#footer-nav_s{
+	margin-left:24px; 
+}
+.footer-nav li{
+	width: 25%;
+}
+#f-nav-pri{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+}
 
 
 
@@ -606,10 +623,6 @@ footer{
 	}
 	.footer-nav{
 		display: flex;
-	}
-	.footer-nav ul{
-		display: flex;
-		justify-content: center;
 	}
 }
 

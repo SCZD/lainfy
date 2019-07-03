@@ -593,6 +593,7 @@ footer{
 		flex-direction: column;
 	}
 	.media-about-a p{
+		width: 100%;
 		text-align: justify;
 		margin-top: 25px;
 	}

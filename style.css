@@ -509,3 +509,31 @@ footer{
 	justify-content: flex-end;
 }
 
+
+@media(max-width: 900px){
+	.container{
+		padding-left: 0;
+		padding-right: 0; 
+	}
+	.entradas{
+		width: 95%;
+	}
+	#nav ul li{
+		display: none;
+	}
+	#nav{
+		height: 48px;
+	}
+	.author{
+		display: none;
+	}
+	.footer{
+		width: 95%;
+	}
+	.signup{
+	right: 15px;
+	}
+	.logo{
+		left: 20px;
+	}
+}

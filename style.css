@@ -520,21 +520,41 @@ footer{
 	width: 100%;
 }
 .footer-nav ul{
-	width: calc(50% - 12px);
-	display: flex;
-	justify-content: center;
-}
-#footer-nav_s{
-	margin-left:24px; 
+	width: 100%;
 }
 .footer-nav li{
-	width: 25%;
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.footer-nav a{
+	box-sizing: border-box;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	height: 150%;
+	z-index: -1;
 }
 #f-nav-pri{
 	position: absolute;
 	transform: translate(-50%, -50%);
 	top: 50%;
 	left: 50%;
+}
+#footer-nav-a{
+	background: #c49bdf;
+}
+#footer-nav-b{
+	background: #7fd3f7;
+}
+#footer-nav-d{
+	background: #ff7514;
+}
+#footer-nav-e{
+	background: #ffde17;
 }
 
 

@@ -69,9 +69,12 @@ header{
 	border-radius: 5px;
 	border: 1.4px solid rgb(133,101,196);
 	color: rgb(133,101,196);
-}
-#login{
 	cursor: pointer;
+	transition: .25s;
+}
+#login:hover{
+	background: rgb(133,101,196);
+	color: #ffffff;
 }
 .container{
 	width: 100%;

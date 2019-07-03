@@ -336,6 +336,11 @@ header{
 .about-who-0{
 	width: 50%;
 	display: flex;
+	flex-direction: column;
+}
+.media-about-a{
+	display: flex;
+	flex-direction: column;
 	align-items: center;
 	flex-direction: column;
 }
@@ -511,11 +516,11 @@ footer{
 
 
 @media(max-width: 900px){
-	.container{
+	.container,.container-web,.container-pdekstop,.container-sisters,.container-about{
 		padding-left: 0;
 		padding-right: 0; 
 	}
-	.entradas{
+	.entradas,.sist-title,.sist-roll,.about{
 		width: 95%;
 	}
 	#nav ul li{
@@ -536,4 +541,55 @@ footer{
 	.logo{
 		left: 20px;
 	}
+	.entr--0{
+		box-shadow: 0 2px 16px 0 rgba(0,0,0,0.10);
+	}
+
+
+	.about-who-0 p{
+		box-sizing: border-box;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.about-who-0{
+		width: 375px;
+		margin-top: 25px;
+		margin-bottom: 50px;
+	}
+	.about-who{
+		flex-flow: row wrap;
+    	justify-content: center;
+	}
+
 }
+@media(max-width: 806px){
+	.about-who-0{
+		width: 100%;
+		flex-direction: row;
+		box-shadow: 0px 2px 16px 0 rgba(0,0,0,0.10);
+		box-sizing: border-box;
+		padding: 25px;
+		border-radius: 8px;
+
+	}
+	.media-about-a{
+		justify-content: center;
+
+	}
+	.media-about-a p{
+		text-align: left;
+		width: 80%;
+		margin-top: 0;
+	}
+	.about-who-03{
+		box-sizing: border-box;
+		width: 80%;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
+
+
+
+	

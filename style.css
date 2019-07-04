@@ -550,21 +550,27 @@ footer{
 	top: 50%;
 	left: 50%;
 }
-#footer-nav-a a:active {
-	background: #c49bdf;
+
+/*#footer-nav-a img {
+	filter: opacity(50%);
 }
-#footer-nav-b a:active{
-	background: #7fd3f7;
+#footer-nav-b img{
+	filter: opacity(50%);
 }
-#footer-nav-c{}
-#footer-nav-d a:active{
-	background: #ff7514;
+#footer-nav-c img {
+	filter: opacity(50%);
 }
-#footer-nav-e a:active{
-	background: #ffde17;
+#footer-nav-d img{
+	filter: opacity(50%);
+}
+#footer-nav-e img{
+	filter: opacity(50%);
 }
 
-
+.footer-nav-b{
+	filter: opacity(100%);
+}
+*/
 
 
 @media(max-width: 900px){

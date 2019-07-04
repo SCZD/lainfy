@@ -514,7 +514,7 @@ footer{
 
 
 .footer-nav{
-	position: relative;
+	position:relative;
 	display: none;
 	padding: 18px 0;
 	width: 100%;
@@ -550,6 +550,7 @@ footer{
 #footer-nav-b{
 	background: #7fd3f7;
 }
+#footer-nav-c{}
 #footer-nav-d{
 	background: #ff7514;
 }
@@ -643,6 +644,9 @@ footer{
 	}
 	.footer-nav{
 		display: flex;
+		position: fixed;
+		bottom: 0;
+		background: #ffffff;
 	}
 }
 

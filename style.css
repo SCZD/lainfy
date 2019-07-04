@@ -578,6 +578,10 @@ footer{
 	.web-a-a img{
 		width: 100%;
 	}
+	.web-a-a{
+		box-shadow: 0 0px 8px 0 rgba(0,0,0,0.10);
+		border-radius: 8px;
+	}
 	#nav ul li{
 		display: none;
 	}

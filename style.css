@@ -550,17 +550,17 @@ footer{
 	top: 50%;
 	left: 50%;
 }
-#footer-nav-a{
+#footer-nav-a a:active {
 	background: #c49bdf;
 }
-#footer-nav-b{
+#footer-nav-b a:active{
 	background: #7fd3f7;
 }
 #footer-nav-c{}
-#footer-nav-d{
+#footer-nav-d a:active{
 	background: #ff7514;
 }
-#footer-nav-e{
+#footer-nav-e a:active{
 	background: #ffde17;
 }
 
@@ -661,6 +661,9 @@ footer{
 		bottom: 0;
 		background: #ffffff;
 		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+	}
+	.entr--0 p{
+		margin-bottom: 25px;
 	}
 }
 

@@ -54,6 +54,10 @@ header{
 	display: flex;
 	justify-content: center;
 }
+#header-nav img{
+	width: 28px;
+	height: 28px;
+}
 
 /*#############################################*/
 #h-li-c-a:hover{

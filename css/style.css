@@ -70,19 +70,19 @@ header{
 
 /*#############################################*/
 #h-li-c-a:hover{
-	border-bottom: 3px solid red;
+	border-bottom: 3px solid #000000;
 }
 #h-li-c-b:hover{
-	border-bottom: 3px solid black;
+	border-bottom: 3px solid  #00CDFA;
 }
 #h-li-c-c:hover{
-	border-bottom: 3px solid purple;
+	border-bottom: 3px solid #FD38C8;
 }
 #h-li-c-d:hover{
-	border-bottom: 3px solid green;
+	border-bottom: 3px solid #FA0701;
 }
 #h-li-c-e:hover{
-	border-bottom: 3px solid red;
+	border-bottom: 3px solid #ffde17;;
 }
 #header li:hover a{
 	color: #000000;
@@ -145,7 +145,7 @@ header{
 #n-titulo{
 	text-align: center;
 	font-size: 30px;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 }
 .n-descripcion{
 	line-height: 1.5;
@@ -190,10 +190,48 @@ header{
 	text-align: center;
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++*/
+.libros{
+	max-width: 1240px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	padding: 75px 40px;
+	align-items: center;
+}
+.l-linea{
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.l-l-line{
+	border-top: 2px solid rgb(133,101,196);
+    width: 100%;
+    position: absolute;
+    top: 50%;
+}
+.l-linea span{
+	padding: 0 25px;
+    background: #ffffff;
+    z-index: 1;
+    font-size: 25px;
+}
+.libros-contenedor{
+	display: flex;
+	margin-top: 75px;
+	flex-flow: row wrap;
+}
+.l-c-libro img{
+	height: 212.14px;
+	width: 150px;
+}
+.l-c-libro{
+	width: 150px;
+	background: red;
+	margin: 0 25px 25px 25px;
 
-
-
-
+}
 
 
 
@@ -290,9 +328,6 @@ footer{
 	.nosotros{
 		width: 100%;
 	}
-	#header-nav{
-		display: flex;
-	}
 }
 @media(max-width: 798px) {
 	nav{
@@ -300,5 +335,8 @@ footer{
 	}
 	header{
 		height: 46px;
+	}
+	#header-nav{
+		display: flex;
 	}
 }

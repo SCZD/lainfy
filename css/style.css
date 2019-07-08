@@ -44,7 +44,6 @@ header{
 	left: 0;
 	width: 100%;
 	display: flex;
-	padding: 10px 0;
 	box-shadow: 0 0px 8px 0 rgba(0,0,0,0.15);
 	background: #ffffff;
 	display: none;
@@ -53,10 +52,20 @@ header{
 	width: 25%;
 	display: flex;
 	justify-content: center;
+	position: relative;
 }
 #header-nav img{
 	width: 28px;
 	height: 28px;
+	padding: 10px 0;
+}
+#header-nav a{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left:50%;
+	height: 100%;
+	width: 85%;
 }
 
 /*#############################################*/

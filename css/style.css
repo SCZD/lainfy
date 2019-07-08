@@ -38,6 +38,22 @@ header{
 	color: #737373;
 	letter-spacing: 1px;
 }
+#header-nav{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	padding: 10px 0;
+	box-shadow: 0 0px 8px 0 rgba(0,0,0,0.15);
+	background: #ffffff;
+	display: none;
+}
+#header-nav div{
+	width: 25%;
+	display: flex;
+	justify-content: center;
+}
 
 /*#############################################*/
 #h-li-c-a:hover{
@@ -160,7 +176,7 @@ header{
 .m-div-fav{
 	text-align: center;
 }
-
+/*++++++++++++++++++++++++++++++++++++++++++++++*/
 
 
 
@@ -260,6 +276,9 @@ footer{
 	}
 	.nosotros{
 		width: 100%;
+	}
+	#header-nav{
+		display: flex;
 	}
 }
 @media(max-width: 798px) {

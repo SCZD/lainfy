@@ -254,6 +254,9 @@ footer{
 		border-radius: 3px;
 		box-shadow: 0 2px 16px 0 rgba(0,0,0,0.10);
 		padding: 25px;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;  
 	}
 	.nosotros{
 		width: 100%;

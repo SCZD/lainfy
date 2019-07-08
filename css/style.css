@@ -225,27 +225,25 @@ header{
 	justify-content: center;
 }
 .l-c-libro img{
-	height: 212.14px;
-	width: 150px;
 }
 .l-c-libro{
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	width: 150px;
 	margin: 0 25px 50px 25px;
 }
 .l-c-libro span{
 	text-align: center;
 	margin-top: 5px;
+	font-size: 16px;
 }
 .l-c-libro a{
  	position: absolute;
- 	transform: translate(-50%,-55%);
+ 	transform: translate(-50%,-50%);
  	top: 50%;
  	left: 50%;
  	width: 100%;
- 	height:212.14px;
+ 	height:100%;
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++*/
 
@@ -347,9 +345,6 @@ footer{
 	.l-c-libro img{
 		width: 300px;
 		height: 424px;
-	}
-	.l-c-libro{
-		width: 300px;
 	}
 	.l-c-libro{
 		font-size: 25px;

@@ -651,7 +651,7 @@ footer{
 }
 @media(max-width: 960px){
 	#header div{
-		margin-right: 10px;
+		margin-right: 0;
 	}
 	.index-contenedor-entradas{
 		width: 70%
@@ -701,9 +701,15 @@ footer{
 		align-items: center;
 	}
 	.nosotros-img div{
-		margin-bottom: 50px;
+		margin-bottom: 49px;
 		width: 100%;
 		box-sizing: border-box;
+	}
+	#nosotros{
+		padding-top: 50px;
+	}
+	.nosotros-info{
+		padding: 20px 10px;
 	}
 }
 @media(max-width: 560px){

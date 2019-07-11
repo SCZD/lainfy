@@ -533,6 +533,8 @@ header{
 	flex-direction: column;
 	border-radius: 5px;
 	background: #ffffff;
+	width: 100%;
+	box-sizing: border-box;
 }
 #nosotros-info-title{
 	align-self: center;
@@ -574,7 +576,7 @@ header{
 	font-size: 13px;
 }
 .nosotros-img-user p{
-	width: 75%;
+	width: 100%;
 	text-align: center;
 }
 .nosotros-img-user-apps{

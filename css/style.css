@@ -86,6 +86,17 @@ header{
     color: #7367f0;
     cursor: pointer;
 }
+#header-search{
+	display: none;
+	padding: 6px;
+	border: 1px solid #eee;
+	border-radius: 2px;
+	overflow: hidden;
+	outline: none;
+}
+#header-search:focus{
+	border-color:#7367f0;
+}
 /*##########################################*/
 #index{
 	width: 100%;
@@ -533,7 +544,11 @@ header{
 
 
 
-
+#nav-mobile-version{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
 /*##########################################*/
 footer{
 	position: absolute;
@@ -653,15 +668,18 @@ footer{
 
 	}
 	header{
-		visibility: hidden;
+		/*visibility: hidden;*/ /*r*/
 	}
 	#index{
-		padding: 0;
+		padding-top: 49px;/*r*/
 	}
 	.index-contenedor{
-		padding-top: 25px;
+		padding-top: 25px; /*r*/
 	}
-	#mobile-verion {
+	#header-search{
 		display: flex;
 	}
+	/*#mobile-verion {
+		display: flex;
+	}*/ /*r*/
 }

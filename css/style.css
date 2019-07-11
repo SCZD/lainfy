@@ -589,6 +589,12 @@ footer{
 	#header div{
 		margin-right: 20px;
 	}
+	.index-contenedor-entradas{
+		width: 70%
+	}
+	.index-contenedor-lateral{
+		width: 30%;
+	}
 }
 @media(max-width: 887px){
 	.index-contenedor-lateral{
@@ -607,7 +613,7 @@ footer{
 		height: 49px;
 	}
 	.c-e-entradas{
-		padding: 10px 10px 50px 10px;
+		padding: 15px 15px 50px 15px;
 
 	}
 }
@@ -629,5 +635,11 @@ footer{
 	.c-e-entradas p {
 		padding: 0 20px;
 
+	}
+	header{
+		visibility: hidden;
+	}
+	#index{
+		padding: 0;
 	}
 }

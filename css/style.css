@@ -96,6 +96,21 @@ header{
 	flex-direction: column;
 	align-items: center;
 }
+#mobile-verion{
+	width: 100%;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	height: 49px;
+	background: #ffffff;
+	box-shadow: 0 0px 8px 0 rgba(0,0,0,0.15);
+}
+#mobile-verion span{
+	font-size: 20px;
+    color: #000000;
+    font-weight: bolder;
+    letter-spacing: 8px;
+}
 .index-portada{
 	width: 100%;
 	display: flex;
@@ -630,6 +645,7 @@ footer{
 	.c-e-entradas{
 		padding:0 0 50px 0;
 		border-radius: 3px;
+		margin-bottom: 25px;
 
 	}
 	.c-e-entradas p {
@@ -641,5 +657,11 @@ footer{
 	}
 	#index{
 		padding: 0;
+	}
+	.index-contenedor{
+		padding-top: 25px;
+	}
+	#mobile-verion {
+		display: flex;
 	}
 }

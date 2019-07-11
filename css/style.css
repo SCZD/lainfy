@@ -607,11 +607,18 @@ footer{
 		height: 49px;
 	}
 	.c-e-entradas{
-		padding-bottom: 50px; 
+		padding: 10px 10px 50px 10px;
+
 	}
 }
 @media(max-width: 560px){
 	.index-contenedor-entradas{
 		width: 100%;
+	}
+	#header button{
+		display: none;
+	}
+	.colaboracion{
+		display: none;
 	}
 }

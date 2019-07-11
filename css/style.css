@@ -612,7 +612,7 @@ footer{
 	}
 }
 @media(max-width: 560px){
-	.index-contenedor-entradas{
+	.index-contenedor-entradas,.index-contenedor{
 		width: 100%;
 	}
 	#header button{
@@ -620,5 +620,14 @@ footer{
 	}
 	.colaboracion{
 		display: none;
+	}
+	.c-e-entradas{
+		padding:0 0 50px 0;
+		border-radius: 3px;
+
+	}
+	.c-e-entradas p {
+		padding: 0 20px;
+
 	}
 }

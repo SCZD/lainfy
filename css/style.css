@@ -98,7 +98,7 @@ header{
 	border-color:#7367f0;
 }
 /*##########################################*/
-#index,#nosotros{
+#index,#nosotros,#seguirleyendo{
 	width: 100%;
 	box-sizing: border-box;
 	padding-top:100px;
@@ -280,6 +280,7 @@ header{
 	z-index: 2;
 	line-height: 1.5;
 	margin:20px 0 0 0;
+	font-size: 15px;
 }
 #entrada-name{
 	text-decoration: none;
@@ -519,6 +520,91 @@ header{
 	height: 28px;
 }
 /*##########################################*/
+.video-entrada{
+	width: 98%;
+	display: flex;
+}
+.v-e-scroll{
+	width: 55%;
+}
+.v-e-iframe{
+	position: sticky;
+  	top: 75px;
+  	box-shadow: 0 0px 8px 0 rgba(0,0,0,0.15);
+  	background: #ffffff;
+  	border-bottom-right-radius: 5px; 
+  	border-bottom-left-radius: 5px; 
+  	overflow: hidden;
+ }
+.v-e-iframe-list{
+	position: sticky;
+  	top: 75px;
+  	padding: 10px 10px 20px 10px;
+
+}
+.v-e-iframe-list p{
+	line-height: 1.5;
+}
+.v-e-i-contenedor{
+	position: relative;
+	padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.v-e-i-contenedor iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.v-e-info{
+	width: 45%;
+  	padding: 0px 0px 0px 25px;
+}
+.v-e-info-effect{
+	box-shadow: 0 0px 8px 0 rgba(0,0,0,0.15);
+  	background: #ffffff;
+  	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+}
+.v-e-info-title{
+	padding: 50px 25px 25px 25px;
+	text-align: center;
+	font-size: 25px;
+}
+.v-e-info-p{
+	padding: 0 25px 25px 25px;
+	line-height: 1.5;
+}
+.v-e-info-html,.v-e-info-css,.v-e-info-js{
+	margin: 0 25px 25px 25px;
+	border-radius: 5px;
+	overflow: hidden;
+	background: #f1f6fd;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+}
+.v-e-info-html div,.v-e-info-css div,.v-e-info-js div{
+	padding: 10px;
+	color: #ffffff;
+	font-weight: bolder;
+}
+.v-e-info-html code,.v-e-info-css code,.v-e-info-js code{
+	padding: 0 12px;
+}
+.v-e-info-html div{
+ 	background: #e34c26;
+}
+.v-e-info-css div{
+	background: #563d7c;
+}
+.v-e-info-js div{
+	background: #f1e05a;
+}
+/*##########################################*/
 .nosotros-info{
 	max-width: 1248px;
 	display: flex;
@@ -659,6 +745,17 @@ footer{
 	}
 	.index-contenedor-lateral{
 		width: 30%;
+	}
+	.video-entrada{
+		flex-direction: column;
+	}
+	.v-e-scroll,.v-e-info{
+		width: 100%;
+		padding: 0;
+		margin-bottom: 50px;
+	}
+	.v-e-scroll{
+		
 	}
 }
 @media(max-width: 887px){

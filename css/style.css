@@ -32,20 +32,11 @@ header{
 	align-items: center;
 	margin-right: 75px;
 }
-#header div img{
-	/*vacio*/
-}
-#header div a{
-	/*vacio*/
-}
 #header div span{
 	font-size: 20px;
 	color: #000000;
 	font-weight: bolder;
 	letter-spacing: 8px;
-}
-#header nav{
-	/*vacio*/
 }
 #header ul{
 	display: flex;
@@ -104,11 +95,20 @@ header{
 #index-contenedor-separar-mb-version{
 	display: none;
 }
-#index,#nosotros{
+#index{
 	width: 100%;
 	box-sizing: border-box;
-	padding-top:100px;
+	padding-top:75px;
 	padding-bottom: 75px; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#nosotros{
+	padding-top: 75px;
+	width: 100%;
+	box-sizing: border-box;
+	padding-bottom: 50px; 
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -289,7 +289,7 @@ header{
 .index-contenedor{
 	max-width: 1248px;
 	display: flex;
-	padding-top: 80px; 
+	padding-top: 26px; 
 }
 .index-contenedor-entradas{
 	width: 75%;
@@ -766,7 +766,6 @@ footer{
 		padding-top: 49px;
 	}
 	.index-contenedor{
-		padding-top: 50px;
 		width: 95%;
 		justify-content: center;/*Se lo puedo poner al el sin @media pero idk*/
 	}
@@ -835,11 +834,8 @@ footer{
 		width: 100%;
 		box-sizing: border-box;
 	}
-	#nosotros{
-		padding-top: 49px;
-	}
 	.nosotros-info{
-		padding: 25px 10px;
+		padding:0 15px 25px 15px;
 	}
 }
 @media(max-width: 560px){
@@ -870,45 +866,8 @@ footer{
 	.c-e-entradas p {
 		padding: 0 20px;
 	}
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	.v-e-info-effect{
 		border-radius: 0;
-	}
-	header{
-		/*visibility: hidden;*/ /*r*/
-	}
-	#index{
-		padding-top: 49px;/*r*/
-	}
-	.index-contenedor{
-		padding-top: 25px; /*r*/
 	}
 	#header-search{
 		display: flex;
@@ -916,7 +875,4 @@ footer{
 	.video-entrada{
 	width: 100%;
 	}
-	/*#mobile-verion {
-		display: flex;
-	}*/ /*r*/
 }

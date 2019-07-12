@@ -286,7 +286,7 @@ header{
 	text-decoration: none;
 	color: #000000;
 	font-size: 24px;
-	margin:40px 0 0px 0; 
+	margin:15px 0 0px 0; 
 	z-index:3;
 	font-family: 'Oswald', sans-serif;
 	font-weight: bolder;
@@ -754,9 +754,6 @@ footer{
 		padding: 0;
 		margin-bottom: 50px;
 	}
-	.v-e-scroll{
-		
-	}
 }
 @media(max-width: 887px){
 	.contenedor-lateral-twitter{
@@ -847,6 +844,9 @@ footer{
 	}
 	#header-search{
 		display: flex;
+	}
+	.video-entrada{
+	width: 100%;
 	}
 	/*#mobile-verion {
 		display: flex;

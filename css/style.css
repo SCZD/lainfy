@@ -503,7 +503,7 @@ header{
 	display: flex;
 	width: 20%;
 	justify-content: center;
-	padding: 15px 0;
+	padding: 12.5px 0;
 	position: relative;
 }
 #nav-mobile-version li a{
@@ -516,8 +516,8 @@ header{
 	height: 100%;
 }
 #nav-mobile-version li img{
-	width: 28px;
-	height: 28px;
+	width: 24px;
+	height: 24px;
 }
 /*##########################################*/
 .video-entrada{

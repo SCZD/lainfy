@@ -697,11 +697,11 @@ header{
 }
 /*##########################################*/
 .video-entrada{
-	width: 98%;
+	width: 98.1%;
 	display: flex;
 }
 .v-e-scroll{
-	width: 55%;
+	width: 54%;
 }
 .v-e-iframe{
 	position: sticky;
@@ -715,11 +715,11 @@ header{
 .v-e-iframe-list{
 	position: sticky;
   	top: 75px;
-  	padding: 10px 10px 20px 10px;
-
+  	padding: 10px 10px 10px 10px;
 }
 .v-e-iframe-list p{
 	line-height: 1.5;
+	margin: 0;
 }
 .v-e-i-contenedor{
 	position: relative;
@@ -735,7 +735,7 @@ header{
 	height: 100%;
 }
 .v-e-info{
-	width: 45%;
+	width: 46%;
   	padding: 0px 0px 0px 25px;
 }
 .v-e-info-effect{
@@ -1030,7 +1030,18 @@ footer{
 		font-size: 15px;
 	}
 	#seguirleyendo{
-		padding-top: 75px;
+		padding-top: 0;
+	}
+	#sl-out{
+		display: none;
+	}
+	.v-e-iframe{
+		border-radius: 0;
+	}
+	.v-e-scroll{
+		position: sticky;
+		top: 0;
+		margin-bottom: 25px;
 	}
 	.index-contenedor-entradas,.index-contenedor{
 		width: 100%;

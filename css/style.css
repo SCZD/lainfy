@@ -7,6 +7,17 @@ body{
 	position: relative;
 	background: #f9f9f9;
 }
+::-webkit-scrollbar {
+	width: 5px;
+}
+::-webkit-scrollbar-thumb {
+	background: #666;
+	border-radius: 0px;
+}
+::-webkit-scrollbar-track{
+	background: #ddd;  
+	margin: 0 0;
+}
 button{
 	outline: none;
 }
@@ -92,6 +103,136 @@ header{
 	border-color:#7367f0;
 }
 /*##########################################*/
+#ebooks{
+	padding-top: 75px;
+	width: 100%;
+	box-sizing: border-box;
+	padding-bottom: 75px; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.ebooks-contenedor{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.ebooks-c-categorias{
+	width: 15%;
+	padding: 0 15px 15px 15px;
+}
+.ebooks-c-libro{
+	width: 85%;
+	padding: 0 15px 15px 15px;
+}
+.c-c-filter{
+	box-shadow: 0 0px 8px 0 rgba(0,0,0,0.15);
+	padding: 15px 15px;
+	background: #ffffff;
+	border-radius: 5px;
+	position: sticky;
+	top: 75px;
+	display: flex;
+	flex-direction: column;
+}
+.c-l-libros{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.ebooks-c-libro-ex{
+	display: flex;
+	width: 100%;
+	box-shadow: 0 0px 8px 0 rgba(0,0,0,0.15);
+	border-radius: 5px;
+	overflow: hidden;
+	background: #ffffff;
+}
+.libros-ensi{
+	width: 175px;
+	height: 247.5px;
+	background: #eee;
+	margin: 15px 15px 40px 15px;
+	position: relative;
+	display: flex;
+	border:1px solid #666;
+}
+.libros-ensi a{
+	transform: translate(-50%,-50%);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.libros-ensi span{
+	transform: translate(-50%,-50%);
+	top: 108%;
+	left: 50%;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+#c-c-filter-c{
+	text-align: center;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+.ebooks-filter-contenedor{
+	width: 100%;
+	display: flex;
+	margin-bottom: 5px;
+}
+.ebooks-filter-contenedor input[type="checkbox"]{
+	display: none;
+}
+.ebooks-filter-contenedor input[type="checkbox"]:checked + label{
+	padding: 10px; 
+	background: #7367f0;
+	color: #ffffff;
+}
+.ebooks-filter-contenedor input[type="checkbox"]:checked + label:before{
+	display: none;
+}
+.ebooks-filter-contenedor label{
+	color: #666;
+	border-radius: 5px;
+	padding:10px 10px 10px 48px; 
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	transition: background .3s ease,padding .3s ease;
+	height: 40px;
+	box-sizing: border-box;
+	position: relative;
+}
+.ebooks-filter-contenedor label:hover{
+	background: #eee;
+	color: #000000;
+}
+.ebooks-filter-contenedor label:before{
+	content: "";
+	height: 22px;
+	width: 22px;
+	display: flex;
+	border-radius: 50%;
+	border:2px solid #7367f0;
+	margin-right: 5px;
+	position: absolute;
+	left: 10px;
+}
+/*#checked-2:checked ~ #imagenes .tablet, #laptop:checked ~ #imagenes .movil {
+	display: none; 
+}*/
+/*##########################################*/
 #index-contenedor-separar-mb-version{
 	display: none;
 }
@@ -108,7 +249,7 @@ header{
 	padding-top: 75px;
 	width: 100%;
 	box-sizing: border-box;
-	padding-bottom: 50px; 
+	padding-bottom: 75px; 
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -758,7 +899,21 @@ footer{
 	height: 100%;
 }
 /*##########################################*/
+@media(max-width: 1630px){
+	.ebooks-c-categorias{
+		width: 20%;
+	}
+	.ebooks-c-libro{
+		width: 80%;
+	}
+}
 @media(max-width: 1347px){
+	.ebooks-c-categorias{
+		width: 25%;
+	}
+	.ebooks-c-libro{
+		width: 75%;
+	}
 	.index-portada{
 		display: none;
 	}
@@ -770,6 +925,14 @@ footer{
 		justify-content: center;/*Se lo puedo poner al el sin @media pero idk*/
 	}
 }
+@media(max-width: 1008px){
+	.ebooks-c-categorias{
+		width: 24%;
+	}
+	.ebooks-c-libro{
+		width: 76%;
+	}
+	}
 @media(max-width: 960px){
 	#header div{
 		margin-right: 0;
@@ -787,6 +950,13 @@ footer{
 		width: 100%;
 		padding: 0;
 		margin-bottom: 50px;
+	}
+	.ebooks-c-categorias{
+		width: 28%;
+	}
+	.ebooks-c-libro{
+		width: 72%;
+		padding-left: 0;
 	}
 }
 @media(max-width: 887px){
@@ -825,8 +995,20 @@ footer{
 
 	}
 	#nav-mobile-version,#index-contenedor-separar-mb-version{
-	display: flex;
+		display: flex;
 	}
+	.ebooks-contenedor{
+		flex-direction: column;
+	}
+	.ebooks-c-libro {
+   		padding-left: 15px;
+   		width: 100%;
+   		box-sizing: border-box;
+    }
+    .ebooks-c-categorias{
+    	width: 100%;
+    	box-sizing: border-box;
+    }
 	.nosotros-img{
 		flex-direction: column;
 		align-items: center;

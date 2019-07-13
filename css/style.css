@@ -801,14 +801,16 @@ footer{
 		align-items: center;
 	}
 	.index-contenedor-lateral{
-		width: 90%;
+		width: 100%;
 		display: flex;
 		align-items: center;
 		flex-direction: column;
+		padding: 0 15px 15px 15px;
+		box-sizing: border-box;
 	}
 	.index-contenedor-entradas{
-		width: 90%;
-		padding: 0; /*ANtes aunque tuviera margen su width+pdd no llegaba al final, por ende no lo desplazaba a la izquierda y se quedaba ene l centro*/
+		width:100%;
+		padding: 0; /*Antes aunque tuviera margen su width+pdd no llegaba al final, por ende no lo desplazaba a la izquierda y se quedaba ene l centro*/
 	}
 }
 @media(max-width: 803px){

@@ -696,6 +696,129 @@ header{
 	height: 24px;
 }
 /*##########################################*/
+#login-div{
+	position: fixed;
+	transform: translate(-50%,-50%);
+	width: 900px;
+	height: 500px;
+	top: 50%;
+	left: 50%;
+	z-index: 4;
+	background: #ffffff;
+	box-shadow: 0 0px 8px 0 rgba(0,0,0,0.15);
+	border-radius: 5px;
+	display: none;
+	overflow: hidden;
+	z-index: 101;
+}
+.login-div-img{
+	background: url(../img/login_form/nube.png)no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 40%;
+    background-size: cover;
+}
+.login-form{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	box-sizing: border-box;
+	align-items: center;
+	position: relative;
+}
+.login-form-login{
+	font-size: 30px;
+    color: #000000;    
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 75px;
+}
+.login-form input{
+	outline: none;
+	width: 75%;
+	margin-bottom: 25px;
+	border-radius: 100px;
+	border:none;
+	padding: 10px 25px;
+	border:1px solid #eee;
+}
+.login-form input:focus{
+	border:1px solid #666;
+}
+.login-form button{
+	background: transparent;
+    padding: 8px 30px;
+    border-radius: 3px;
+    color: #000000;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    background: #ffffff;
+    border:1px solid #eee;
+    box-shadow: 0 0px 2px 0 rgba(0,0,0,0.1);
+}
+.login-form button:hover{
+	box-shadow: 0 0px 8px 0 rgba(0,0,0,0.1);
+}
+.login-form button:active{
+	background: #7367f0;
+	color:  #ffffff;
+	transform: scale(1.15);
+}
+#l-f-login{
+	position: absolute;
+	left: 56.25px;
+	bottom: 135px;
+}
+#l-f-register{
+	right: 56.25px;
+	bottom: 135px;
+	position: absolute;
+}
+#l-f-google{
+	left:56.25px;
+	bottom: 75px;
+	position: absolute;
+	padding:8px 30px 8px 65px;
+}
+#l-f-google img{
+	position: absolute;
+	transform: translate(0,-50%);
+	top: 50%;
+	left: 30px;
+}
+#opacity-body{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: #666;
+	z-index: 100;
+	filter: opacity(75%);
+	display: none;
+}
+#opacity-body button{
+	width: 100vw;
+	height: 100vh;
+	background: transparent;
+	outline: none;
+	border:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*##########################################*/
 .video-entrada{
 	width: 98.1%;
 	display: flex;

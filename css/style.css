@@ -84,21 +84,23 @@ header{
 	transform: translate(0,-50%);
 	top: 50%;
 	right: 0;
-	background: transparent;
+
     padding: 8px 34px;
     border-radius: 3px;
     border: 1px solid #7367f0;
-    color: #7367f0;
     cursor: pointer;
     transition: all .1s ease-in-out;
 }
+#fckyou{
+	color: #7367f0;
+	background: transparent;
 #fckyou-1{
 	display: none;
 	background: #7367f0;
 	color: #ffffff;
 }
 #fckyou-1:active{
-	transform: scale(1.1);
+	
 }
 #header-search{
 	display: none;

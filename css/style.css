@@ -90,9 +90,15 @@ header{
     border: 1px solid #7367f0;
     color: #7367f0;
     cursor: pointer;
+    transition: all .1s ease-in-out;
 }
 #fckyou-1{
 	display: none;
+	background: #7367f0;
+	color: #ffffff;
+}
+#fckyou-1:active{
+	transform: scale(1.1);
 }
 #header-search{
 	display: none;

@@ -7,6 +7,7 @@
 	<link rel="icon" type="image" href="../img/logo/logo.png" width="32" height="32">
 	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script type="text/javascript" src="../js/app.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=DM+Serif+Text|Open+Sans|Oswald|Work+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -27,9 +28,26 @@
 				</ul>
 			</nav>
 			<div id="header-div-search"><input autocomplete="" type="search" id="header-search" placeholder="Buscar..."></div>
-			<button>Login</button>
+			<button id="fckyou" onclick="background_login()">Login</button>
+			<button id="fckyou-1" onclick="logout()"></button>
 		</div>
 	</header>
+	<div id="login-div">
+		<div class="login-div-img">
+			
+		</div>
+		<div class="login-form">
+			<span class="login-form-login">Iniciar Sesion</span>
+			<input type="email" placeholder="Email..." id="email_field">
+			<input type="password" placeholder="Password..." id="pass_field">
+			<button id="l-f-login" onclick="login()">Login</button>
+			<button id="l-f-register" onclick="register()">Register</button>
+			<button id="l-f-google" onclick="google()"><img src="../img/login_form/google-logo.png" width="25" height="25">Inicio con Google</button>
+		</div>
+	</div>
+	<div id="opacity-body">
+		<button onclick="background_login_magic()"></button>
+	</div>
 	<div id="ebooks">
 		<div class="ebooks-contenedor">
 			<div class="ebooks-c-categorias">
@@ -150,5 +168,31 @@
 			</ul>
 		</div>
 	</footer>
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBuJUvtrZ4easWpBBW-GDELXnxMovuKr44",
+    authDomain: "lainfy-4110a.firebaseapp.com",
+    databaseURL: "https://lainfy-4110a.firebaseio.com",
+    projectId: "lainfy-4110a",
+    storageBucket: "",
+    messagingSenderId: "1054587103133",
+    appId: "1:1054587103133:web:fb7ba7ffb7126e7a"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script type="text/javascript" src="../js/script.js"></script>
 </body>
 </html>

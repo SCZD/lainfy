@@ -53,6 +53,7 @@ function logout(){
 	firebase.auth().signOut().then(function() {
 	  document.getElementById("fckyou").style.display = "flex";
    	  document.getElementById("fckyou-1").style.display = "none";
+	console.log("Successful!");
 	}).catch(function(error) {
 	  // An error happened.
 	});

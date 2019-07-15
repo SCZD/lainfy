@@ -13,7 +13,9 @@ firebase.auth().onAuthStateChanged(function(user) {
    if (user != null) {
 
    	var	email_id = user.email;
-   	document.getElementById("fckyou").innerHTML = email_id;
+   	document.getElementById("fckyou").style.display = "none";
+   	document.getElementById("fckyou-1").style.display = "flex";
+   	document.getElementById("fckyou-1").innerHTML = email_id;
    		var ref = database.ref('Lainfy')
 		var	data = {
 			Name: email_id,
@@ -24,6 +26,8 @@ firebase.auth().onAuthStateChanged(function(user) {
   }else{
    	document.getElementById('login-div').style.display = "flex";
 	document.getElementById('opacity-body').style.display = "flex";
+	// document.getElementById("fckyou").style.display = "flex";
+ //   	document.getElementById("fckyou-1").style.display = "none";
   }
 });
 function login(){

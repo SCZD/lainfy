@@ -91,6 +91,9 @@ header{
     color: #7367f0;
     cursor: pointer;
 }
+#fckyou-1{
+	display: none;
+}
 #header-search{
 	display: none;
 	padding: 8px 2px 8px 15px;

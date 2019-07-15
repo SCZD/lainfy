@@ -5,13 +5,13 @@ var database = firebase.database();
 
 firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
-   document.getElementById('login-div').style.display = "none";
-   document.getElementById('opacity-body').style.display = "none";
+
 
    var user = firebase.auth().currentUser;
 
    if (user != null) {
-
+   	document.getElementById('login-div').style.display = "none";
+	document.getElementById('opacity-body').style.display = "none";
    	var	email_id = user.email;
    	document.getElementById("fckyou").style.display = "none";
    	document.getElementById("fckyou-1").style.display = "flex";
@@ -24,8 +24,6 @@ firebase.auth().onAuthStateChanged(function(user) {
 		ref.push(data);
  	}
   }else{
-   	document.getElementById('login-div').style.display = "flex";
-	document.getElementById('opacity-body').style.display = "flex";
 	// document.getElementById("fckyou").style.display = "flex";
  //   	document.getElementById("fckyou-1").style.display = "none";
   }
@@ -53,7 +51,8 @@ function register(){
 }
 function logout(){
 	firebase.auth().signOut().then(function() {
-	  // Sign-out successful.
+	  document.getElementById("fckyou").style.display = "flex";
+   	  document.getElementById("fckyou-1").style.display = "none";
 	}).catch(function(error) {
 	  // An error happened.
 	});
